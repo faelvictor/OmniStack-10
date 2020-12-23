@@ -1,0 +1,10 @@
+#app {
+    max-width: 1200px;  /* Largura máxima de 1200px, pois se a tela do usuário for muito grande, vai ficar
+    tudo centralizado */
+    margin: 0 auto;
+    padding: 60px 30px; 
+
+    display: flex;
+    flex-direction: row; /* Row pois eu quero que tudo da minha aplicação fique uma do lado da outra */
+    align-items: flex-start; /* Pois quero que meus items fiquem alinhados ao topo */
+}
