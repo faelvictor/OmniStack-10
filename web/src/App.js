@@ -2,6 +2,8 @@ import React from 'react';
 
 import './global.css';  /* Importa o global.css */ 
 import './app.css';
+import './sidebar.css';
+import './main.css';
 
 function App() {      /* O nosso App.js é uma função que retorna um conteúdo HTML.
   Detalhe que estamos trabalhando um código HTML dentro de JavaScript (JSX)*/
@@ -12,6 +14,7 @@ function App() {      /* O nosso App.js é uma função que retorna um conteúdo
   fazer uma outra div, por isso em 'latitude' e 'longitude' há duas divs em torno. Na div pai chamei o 
   'div.input.group'.Outra alternativa é usar grid
   */
+ 
   return (    // HTML
     <div id="app">
       <aside>
@@ -42,8 +45,57 @@ function App() {      /* O nosso App.js é uma função que retorna um conteúdo
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main>
 
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/72525405?s=460&u=e3956760c80de46f3ab196f71ecfc4875e18e345&v=4" alt="Rafael Victor"/>
+              <div className="user-info">
+                <strong>Rafael Victor</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+              <p>Apaixonado pelas melhores tecnologias de desenvolvimento.</p>
+              <a href="https://github.com/faelvictor">Acessar perfil no github</a>
+            </header>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/72525405?s=460&u=e3956760c80de46f3ab196f71ecfc4875e18e345&v=4" alt="Rafael Victor"/>
+              <div className="user-info">
+                <strong>Rafael Victor</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+              <p>Apaixonado pelas melhores tecnologias de desenvolvimento.</p>
+              <a href="https://github.com/faelvictor">Acessar perfil no github</a>
+            </header>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/72525405?s=460&u=e3956760c80de46f3ab196f71ecfc4875e18e345&v=4" alt="Rafael Victor"/>
+              <div className="user-info">
+                <strong>Rafael Victor</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+              <p>Apaixonado pelas melhores tecnologias de desenvolvimento.</p>
+              <a href="https://github.com/faelvictor">Acessar perfil no github</a>
+            </header>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/72525405?s=460&u=e3956760c80de46f3ab196f71ecfc4875e18e345&v=4" alt="Rafael Victor"/>
+              <div className="user-info">
+                <strong>Rafael Victor</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+              <p>Apaixonado pelas melhores tecnologias de desenvolvimento.</p>
+              <a href="https://github.com/faelvictor">Acessar perfil no github</a>
+            </header>
+          </li>
+        </ul>
       </main>
     </div>
   );  
