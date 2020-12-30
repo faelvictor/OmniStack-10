@@ -1,7 +1,7 @@
 #app {
-    max-width: 1200px;  /* Largura máxima de 1200px, pois se a tela do usuário for muito grande, vai ficar
+    max-width: 1200px;
+    margin: 0 auto;  /* Largura máxima de 1200px e margin 0, pois se a tela do usuário for muito grande, vai ficar
     tudo centralizado */
-    margin: 0 auto;
     padding: 60px 30px; 
 
     display: flex;
